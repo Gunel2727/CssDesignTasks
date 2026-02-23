@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+.container {
+    width: 80vw;
+    height: 120vh;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container header nav .logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.container header nav .logo {
+    margin-left: 110px;
+}
+
+.container header nav .nav-link ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    font-size: 17px;
+}
+
+.container header nav .contact a {
+    text-decoration: none;
+    color: black;
+}
+
+.container header nav .contact {
+    margin-right: 110px;
+    margin-top: 17px;
+}
+
+
+
+#page .first-part {
+    background-image: url(https://i0.wp.com/ata-it-th.com/wp-content/uploads/2024/10/programming-background-with-person-working-with-codes-computer.jpg?fit=1200%2C675&ssl=1);
+    background-size: cover;
+    width: 80vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#page .first-part h1,
+p {
+    color: white;
+    text-align: center;
+}
+
+#page .first-part h1 {
+    position: absolute;
+    top: 40px;
+    left: 400px;
+}
+
+#page .first-part p {
+    position: absolute;
+    top: 120px;
+    left: 340px;
+    width: 400px;
+}
+
+.icons {
+    margin-top:30px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.icon {
+    width: 260px;
+    text-align: center;
+}
+
+#page .icon i {
+    font-size: 30px;
+    background-color:rgb(15, 106, 211);
+    color: white;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px auto;
+}
+
+#page .icon h4 {
+    color: rgb(15, 106, 211);
+    margin-bottom: 15px;
+}
+
+#page .icon p {
+    color: black;
+    font-size: 14px;
+    line-height: 1.6;
+}
