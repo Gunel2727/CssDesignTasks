@@ -52,4 +52,12 @@ body {
     background-color:#ff076e;
     border-bottom-left-radius:15px;
     border-bottom-right-radius:15px;
+    display:flex;
+}
+
+.card .red-section p{
+    margin-left:20px;
+}
+.card .red-section p:last-child{
+    margin-top:-13px;
 }
