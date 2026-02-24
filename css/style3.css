@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 78, 78);
+}
+
+.card {
+    width: 400px;
+    height: 620px;
+    background-color: white;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+
+
+.card img {
+    width: 280px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 30px 60px;
+}
+
+.card h1 {
+    text-align: center;
+    margin-top: -17px;
+}
+
+.card p {
+    text-align: center;
+    margin-top: -16px;
+    opacity: 0.7;
+}
+
+.card .desc {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.desc h3{
+    margin:0;
+    text-align:center;
+}
+.desc span{
+    font-size:12px;
+    color:#888;
+    gap:10px;
+}
+
+.btn{
+    width:230px;
+    height:50px;
+    font-size:18px;
+    border-radius:25px;
+    background-color:rgb(7, 149, 192);
+    margin:50px 80px;
+    
+}
+.btn p{
+    color:white;
+    text-align:center;
+    padding:14px;
+}
+.card .more{
+    margin:10px;
+    color:#888;
+}
+.card .plus{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background-color: red;
+    position: absolute;
+    top:190px;
+    right:440px;
+}
+.card .plus i{
+    position:absolute;
+    top:15px;
+    left:10px;
+    font-size:40px;
+    color:white;
+}
