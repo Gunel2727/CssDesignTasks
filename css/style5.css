@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/photo10.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    margin-left: -20px;
+    margin-top: -6px;
+    color: #ff7101;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin-top: 25px;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: white
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.search input {
+    padding: 9px 7px;
+    font-size: 18px;
+    border: 1px solid #ff7101;
+    border-radius: 8px 0 0 8px;
+    background-color: transparent;
+}
+
+.search input::placeholder {
+    color: rgba(255, 255, 255, 0.993);
+}
+
+.search button {
+    padding: 10px 13px;
+    font-size: 18px;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    background-color: #ff7101;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search button:hover {
+    background-color: #ff4500;
+}
+
+.main {
+    display: flex;
+    width: 80vw;
+    height: 80vh;
+
+}
+
+.main .left-section {
+    margin-left: 105px;
+    margin-top: 40px;
+}
+
+.main .left-section h1 {
+    margin-bottom: -35px;
+    margin-top: -35px;
+    font-size: 50px;
+    color: #fd7200;
+}
+
+.main .left-section h3 {
+    font-size: 40px;
+    color: white;
+}
+
+.main .left-section .desc p {
+    width: 40vw;
+    color: white;
+    margin-top: -25px;
+    line-height: 1.5;
+}
+
+.main .left-section .btn {
+    margin-top:35px;
+    width: 140px;
+    height: 36px;
+    background-color: #fd7200;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

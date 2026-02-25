@@ -9,55 +9,88 @@ body {
     width: 100vw;
     height: 100vh;
 }
-.main{
+
+.main {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap:35px;
+}
+.card {
+    border-radius: 15px;
+    overflow: hidden;
 }
 
-.card img{
-    width:350px;
-    height:200px;
-    border-top-left-radius:15px;
-    border-top-right-radius:15px;
-    
+.card img {
+    width: 350px;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
 }
 
-.card .white-section{
-    width:350px;
-    height:250px;
-    background-color:white;
+.card .white-section {
+    width: 350px;
+    height: 250px;
+    background-color: white;
     margin-top: -20px;
-    padding-top: 20px; 
+    padding-top: 20px;
     box-sizing: border-box;
 }
 
-.card .white-section h2,p{
+.card .white-section h2,
+p {
     text-align: center;
 }
-.card .white-section .desc{
-    width:300px;
+
+.card .white-section .desc {
+    width: 300px;
     margin-left: 26px;
 }
-.card .white-section h2{
-    margin-top:-10px;
-}
-.card .white-section .time{
-    color:#ff076e;
+
+.card .white-section h2 {
+    margin-top: -10px;
 }
 
-.card .red-section{
-    width:350px;
-    height:85px;
-    background-color:#ff076e;
-    border-bottom-left-radius:15px;
-    border-bottom-right-radius:15px;
-    display:flex;
+.card .white-section .time {
+    color: #ff076e;
+}
+.card .white-section .time2 {
+    color:orangered;
+}
+.card .white-section .time3 {
+    color:green;
 }
 
-.card .red-section p{
-    margin-left:20px;
+
+.card .red-section {
+    width: 350px;
+    height: 85px;
+    display: flex;
 }
-.card .red-section p:last-child{
-    margin-top:-13px;
+
+.card .red-section p {
+    margin-left: 20px;
+    color: white;
+
+}
+
+.card .red-section p:last-child {
+    margin-top: -13px;
+}
+
+.card .red-section div {
+    border-right: 0.1px solid black;
+    padding-right: 30px;
+    border-color: rgb(14, 13, 13);
+}
+.card .red-section div:last-child{
+    border-right: none;
+}
+.card .red-section div p{
+    padding-left:7px;
+    padding-top:3px;
+}
+.card .red-section div .num:first-child{
+    margin-bottom:12px;
 }
