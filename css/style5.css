@@ -97,7 +97,7 @@ header nav {
     line-height: 1.5;
 }
 
-.main .left-section .btn {
+.main .left-section a{
     margin-top: 35px;
     width: 140px;
     height: 36px;
@@ -106,14 +106,94 @@ header nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration:none;
+    color:black;
 }
 
 .right-section {
     width: 30vw;
     height: 80vh;
-    background-color: black;
-    opacity: 0.8;
+    background-color: rgba(0, 0, 0, 0.8);
     margin-top: 30px;
     margin-left: 190px;
-    border-radius:16px;
+    border-radius: 16px;
+}
+
+.right-section .login-section {
+    width: 240px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 20px 80px;
+}
+
+.right-section .login-section .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fd7200;
+}
+
+.right-section .login-section input {
+    margin-top: 50px;
+    margin-left: -50px;
+    background-color: transparent;
+    border: none;
+}
+
+.right-section .login-section input::placeholder {
+    color: white;
+    font-size: 17px;
+}
+
+.right-section .login-section hr {
+    margin-left: -50px;
+    background-color: #f19675;
+    border: none;
+    height: 2px;
+}
+
+.right-section .login-section button{
+    width: 240px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:#ff4500;
+    margin: 35px -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    border:none;
+    cursor:pointer
+}
+.right-section .account-creation{
+    margin-top:280px;
+    text-align: center;
+    font-size:17px;
+    line-height:0;
+    margin-left:-30px;
+    color:white;
+}
+.right-section .account-creation h5{
+    margin-top: 36px;
+}
+.right-section .account-creation h4 a{
+    text-decoration: none;
+}
+
+.right-section .social-medias ul{
+    display:flex;
+    list-style-type:none;
+    gap:27px;
+    font-size:33px;
+    margin-left:8px;
+}
+.right-section .social-medias ul li a{
+    color:white;
 }
